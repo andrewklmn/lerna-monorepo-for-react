@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { MyLabel } from "components";
 import { sayHello } from "utils/lib";
+import { myFunc, myAnotherFunc } from "utils-es6/lib";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
         <MyLabel text={"Component works!"} />
         <br />
         {sayHello("there")}
+        <br />
+        {myFunc("test")}
+        <br />
+        {myAnotherFunc("test2")}
       </header>
     </div>
   );
