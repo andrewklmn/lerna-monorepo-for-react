@@ -1,0 +1,21 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "author": "Andrii Klymeniuk <andrii.klymeniuk@fordewind.io>",
+  "main": "index.js",
+  "type": "commonjs",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-andrewklmn:andrewklmn/lerna-monorepo-for-react.git"
+  },
+  "scripts": {
+    "test": "node ./test/index.test.js"
+  }
+}

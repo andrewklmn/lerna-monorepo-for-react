@@ -2,6 +2,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { MyLabel } from "components";
+import { sayHello } from "utils/lib";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           Learn React
         </a>
         <MyLabel text={"Component works!"} />
+        {sayHello("there")}
       </header>
     </div>
   );
