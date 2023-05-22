@@ -21,6 +21,7 @@ function App() {
           Learn React
         </a>
         <MyLabel text={"Component works!"} />
+        <br />
         {sayHello("there")}
       </header>
     </div>
