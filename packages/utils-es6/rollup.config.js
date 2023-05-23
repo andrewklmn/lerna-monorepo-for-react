@@ -4,7 +4,7 @@ export default {
   input: "src/index.js",
   output: {
     dir: "lib",
-    format: "es",
+    format: "cjs",
   },
   plugins: [babel({ babelHelpers: "bundled" })],
 };

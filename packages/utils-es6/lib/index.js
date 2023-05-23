@@ -1,3 +1,7 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
 /** @type {import("../index").MyFuncComponent} */
 var myFunc = function myFunc(text) {
   return "MyFunc result: ".concat(text);
@@ -8,4 +12,5 @@ var myAnotherFunc = function myAnotherFunc(text) {
   return "MyAnotherFunc result: ".concat(text);
 };
 
-export { myAnotherFunc, myFunc };
+exports.myAnotherFunc = myAnotherFunc;
+exports.myFunc = myFunc;
